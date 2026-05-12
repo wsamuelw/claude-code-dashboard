@@ -1,6 +1,8 @@
 # Claude Code Token Usage Dashboard
 
-Interactive dashboard to visualise token usage, model breakdown, and activity patterns from Claude Code.
+A zero-dependency, browser-based dashboard that visualises your Claude Code usage data. Drop your `stats-cache.json` file onto the page to see token consumption trends, model breakdowns, peak usage hours, and session activity — all rendered client-side with no server or backend required.
+
+Built for developers who want to understand how they use Claude Code: which models consume the most tokens, when they're most productive, and how their usage patterns change over time.
 
 ![Dashboard](https://github.com/wsamuelw/claude-code-dashboard/raw/main/screenshot.png)
 
