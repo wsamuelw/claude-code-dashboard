@@ -21,7 +21,8 @@ Interactive dashboard to visualise token usage, model breakdown, and activity pa
 
 ### Option 1: GitHub Pages (live)
 
-Visit **https://wsamuelw.github.io/claude-code-dashboard/** and drop your `stats-cache.json` onto the page.
+1. Visit **https://wsamuelw.github.io/claude-code-dashboard/**
+2. Drag `~/.claude/stats-cache.json` onto the page
 
 ### Option 2: Local (no server)
 
@@ -34,24 +35,10 @@ Visit **https://wsamuelw.github.io/claude-code-dashboard/** and drop your `stats
 cd claude-code-dashboard
 python3 -m http.server 8765
 # Open http://localhost:8765
+# Drop your stats-cache.json onto the page
 ```
 
-## Updating Data
-
-The dashboard reads from `~/.claude/stats-cache.json`, which Claude Code generates automatically.
-
-**For GitHub Pages:**
-
-```bash
-cp ~/.claude/stats-cache.json .
-git add stats-cache.json
-git commit -m "update stats"
-git push
-```
-
-Site redeploys automatically (~1 minute).
-
-**For local use:** Just drop the file onto the page again.
+Your data stays in your browser — nothing is uploaded to any server.
 
 ## Data Source
 
