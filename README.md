@@ -4,7 +4,7 @@ A zero-dependency, browser-based dashboard that visualises your Claude Code usag
 
 Built for developers who want to understand how they use Claude Code: which models consume the most tokens, when they're most productive, and how their usage patterns change over time.
 
-![Dashboard](https://github.com/wsamuelw/claude-code-dashboard/raw/main/screenshot.png)
+![Dashboard](https://github.com/wsamuelw/claude-code-dashboard/raw/main/dashboard-screenshot.png)
 
 ## Features
 
